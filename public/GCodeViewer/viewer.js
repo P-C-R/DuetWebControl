@@ -45,7 +45,7 @@ $(document).ready(function() {
         type: "GET",
         url: "http://" +
             $.urlParam("printerip") +
-            "machine/file/" +
+            "/machine/file/" +
             $.urlParam("filepath"),
         timeout: 0,
         xhr: function() {
